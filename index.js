@@ -17,8 +17,6 @@ app.use(
   })
 );
 
-// const db = require("./src/models/index");
-
 app.get("/", (req, res) => {
   res.json({ message: "ok" });
 });
